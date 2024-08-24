@@ -1,4 +1,4 @@
-INSERT INTO ventas (fecha, categoria, total) VALUES
+INSERT INTO ventas_categoria (fecha, categoria, total) VALUES
 ('2024-01-01', 'Abarrotes', 100.00),
 ('2024-01-02', 'Ferretería', 150.00),
 ('2024-01-03', 'Cárnicos', 200.00),
