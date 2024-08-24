@@ -1,4 +1,4 @@
-git Este `SELECT` es muy útil para analizar y visualizar cómo se acumulan las ventas en diferentes categorías a lo largo del tiempo. Aquí hay algunas aplicaciones clave:
+Este `SELECT` es muy útil para analizar y visualizar cómo se acumulan las ventas en diferentes categorías a lo largo del tiempo. Aquí hay algunas aplicaciones clave:
 
 1. **Seguimiento del Rendimiento Acumulado**: Te permite ver cómo las ventas se acumulan día a día o en otro intervalo de tiempo para cada categoría, lo que puede ayudar a identificar tendencias a lo largo del tiempo dentro de cada categoría específica.
 
