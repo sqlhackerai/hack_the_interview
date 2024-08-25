@@ -1,4 +1,4 @@
-6SELECT 
+SELECT 
     categoria,
     MIN(fecha) AS primera_venta_fecha,
     MAX(fecha) AS ultima_venta_fecha,
