@@ -44,7 +44,7 @@ ORDER BY
 
 1. **Detección de Ventas por Encima del Umbral**: En la subconsulta `ventas_con_umbral`, se determina si una venta en una categoría supera un umbral (en este caso, 500). Si la venta es mayor, se registra la fecha; de lo contrario, se almacena como `NULL`.
 
-2. **Fecha de la Última Venta Mayor Acumulada**: En la siguiente subconsulta, se utiliza `MAX()` con `PARTITION BY` y `ORDER BY` para rastrear la última fecha en la que se superó el umbral en cada categoría, acumulando esta fecha a lo largo del tiempo.
+2. **Fecha de la Última Venta Mayor Acumulada**: En la siguiente subconsulta, se utiliza `MAX()` con `PARTITION BY` y `ORDER BY` para rastrear la última fecha en la que se superó el umbgit ral en cada categoría, acumulando esta fecha a lo largo del tiempo.
 
 3. **Cálculo de Días Desde la Última Venta Mayor**: Finalmente, se calcula cuántos días han pasado desde la última venta que superó el umbral utilizando `DATE_PART('day', fecha - fecha_ultima_venta_acumulada)`. Si no hay ventas previas que superen el umbral, el valor será 0.
 
